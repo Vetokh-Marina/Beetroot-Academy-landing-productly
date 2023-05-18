@@ -1,7 +1,6 @@
 html,body {
     font-size: 16px;
     font-family: Montserrat sans-serif;
-    text-align: center;
     line-height: 1.75;
     color: #2F281E;
     background: #F2F2F2;
@@ -60,7 +59,7 @@ img {
 .login_btn:not(:last-child){
     margin-right: 32px;
 }
-.btn_link{
+.btn_link, .btn{
     justify-content: center;
     align-items: center;
     padding: 13px 25px;
@@ -71,7 +70,38 @@ img {
 .link:hover {
     color: #FF9900;
 }
-.btn_link:hover{
+.btn_link:hover,.btn:hover{
     color:#FFFFFF;
     background-color:#FF9900 ;
+}
+/* first screen */
+section{
+    padding: 0 0 100px;
+    background:#FFFFFF ;
+}
+.box{
+    display: flex;
+    padding-top: 70px;
+}
+.title_1{
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 1.22;
+   margin-bottom: 30px;
+}
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #544837;
+    margin-bottom: 20px;
+}
+.btn{
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 40px;
+}
+.box_text{
+    padding: 97px 0;
 }
